@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+.bg-disable {
+  background-color: none;
+}
+
+.btn-login {
+  background-color: transparent;
+  border: none;
+  padding: 6px 12px;
+}
+
+.img-hero {
+  width: 600px;
+  height: 800px;
+}
+
+@media (min-width: 576px) {
+  .img-hero {
+    max-width: 100%;
+  }
+}
