@@ -5,14 +5,48 @@
   font-family: "Epilogue", sans-serif;
 }
 
+nav.navbar {
+  padding: 20px 30px 10px 30px;
+}
+
+a.space-in {
+  margin-left: 50px;
+}
+
+a.space-di {
+  margin-right: 35px;
+}
+
+.border-dropdown {
+  border-radius: 12px !important;
+  border: none !important;
+}
+
+a.dropdown-item {
+  padding: 0.25rem !important;
+}
+.img-dropdown {
+  margin-right: 10px;
+}
+
+.container-button {
+  display: flex;
+  gap: 15px;
+}
+
 .bg-disable {
   background-color: none;
 }
 
-.btn-login {
+button.btn-login {
+  color: rgba(0, 0, 0, 0.55);
   background-color: transparent;
   border: none;
   padding: 6px 12px;
+}
+
+button.btn-login:hover {
+  color: black;
 }
 
 .img-hero {
