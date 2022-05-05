@@ -6,7 +6,7 @@
 }
 
 nav.navbar {
-  padding: 20px 30px 10px 30px;
+  padding: 20px 30px 20px 30px;
 }
 
 a.space-in {
@@ -52,15 +52,14 @@ button.btn-login:hover {
 /* <-------------MAIN----------> */
 
 .pb {
-  padding: 80px 90px 100px 120px;
+  padding: 70px 130px 120px 170px;
 }
 
 h1.text-hero {
-  padding-top: 70px;
-  font-size: 91px;
+  padding-top: 68px;
+  font-size: 76px;
   font-weight: 700;
-  max-width: 596px;
-  text-align: left;
+  max-width: 510px;
 }
 
 p.text-hero {
@@ -68,12 +67,21 @@ p.text-hero {
   font-size: 18px;
   font-weight: 400;
   text-align: justify;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 44px;
+  padding-bottom: 54px;
+}
+
+.px-4 {
+  padding-right: 34px !important;
+  padding-left: 34px !important;
+}
+
+.btn-lg {
+  padding: 15px;
 }
 
 div.partner {
-  padding-top: 130px;
+  padding-top: 110px;
 }
 
 .partner {
@@ -83,11 +91,15 @@ div.partner {
   gap: 40px;
 }
 .img-partner {
-  width: 100px;
+  width: 82px;
+}
+
+.img-fluid {
+  height: 640px;
 }
 
 .img-hero {
-  width: 500px;
+  width: 480px;
   height: auto;
 }
 
