@@ -49,9 +49,46 @@ button.btn-login:hover {
   color: black;
 }
 
+/* <-------------MAIN----------> */
+
+.pb {
+  padding: 80px 90px 100px 120px;
+}
+
+h1.text-hero {
+  padding-top: 70px;
+  font-size: 91px;
+  font-weight: 700;
+  max-width: 596px;
+  text-align: left;
+}
+
+p.text-hero {
+  max-width: 485px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.partner {
+  padding-top: 130px;
+}
+
+.partner {
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+  gap: 40px;
+}
+.img-partner {
+  width: 100px;
+}
+
 .img-hero {
-  width: 600px;
-  height: 800px;
+  width: 500px;
+  height: auto;
 }
 
 @media (min-width: 576px) {
