@@ -64,19 +64,30 @@ button.btn-login:hover {
 }
 
 h1.text-hero {
+  text-align: center;
   padding-top: 68px;
-  font-size: 76px;
+  font-size: 30px;
+  /* font-size: 76px; desktop*/
   font-weight: 700;
   max-width: 510px;
 }
 
+h1.mb-3 {
+  margin-bottom: 35px !important;
+}
+
 p.text-hero {
   max-width: 485px;
-  font-size: 18px;
+  font-size: 15.5px;
+  /* font-size: 18px; desktop */
   font-weight: 400;
-  text-align: justify;
-  padding-top: 44px;
-  padding-bottom: 54px;
+  text-align: center;
+  /* text-align: justify; desktop */
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-top: 44px; desktop
+  padding-bottom: 54px; */
+  margin-bottom: 30px;
 }
 
 .px-4 {
@@ -84,12 +95,25 @@ p.text-hero {
   padding-left: 34px !important;
 }
 
-.btn-lg {
-  padding: 15px;
+button.bm {
+  border-radius: 16px;
+}
+
+button.btn {
+  /* display: inline-block; desktop*/
+  display: block;
+  margin: auto;
+}
+
+button.btn-lg {
+  padding: 12px;
+  font-size: 16px;
+  /* padding: 15px; desktop */
 }
 
 div.partner {
-  padding-top: 110px;
+  padding-top: 50px;
+  padding-bottom: 95px;
 }
 
 .partner {
