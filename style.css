@@ -6,16 +6,24 @@
 }
 
 nav.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
   /* padding: 20px 30px 20px 30px; desktop */
 }
 
-a.space-in {
-  margin-left: 50px;
+button.navbar-toggler {
+  padding: 0px;
+  border: none;
 }
 
+/* a.space-in {
+  margin-left: 50px; 
+}
+                            desktop
 a.space-di {
   margin-right: 35px;
-}
+} */
 
 .border-dropdown {
   border-radius: 12px !important;
