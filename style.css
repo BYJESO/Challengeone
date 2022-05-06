@@ -6,7 +6,7 @@
 }
 
 nav.navbar {
-  padding: 20px 30px 20px 30px;
+  /* padding: 20px 30px 20px 30px; desktop */
 }
 
 a.space-in {
@@ -52,7 +52,7 @@ button.btn-login:hover {
 /* <-------------MAIN----------> */
 
 .pb {
-  padding: 70px 130px 120px 170px;
+  /* padding: 70px 130px 120px 170px; desktop */
 }
 
 h1.text-hero {
@@ -86,9 +86,9 @@ div.partner {
 
 .partner {
   display: flex;
-  justify-content: first baseline;
+  justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  /* gap: 40px; desktop*/
 }
 .img-partner {
   width: 82px;
@@ -101,10 +101,4 @@ div.partner {
 .img-hero {
   width: 480px;
   height: auto;
-}
-
-@media (min-width: 576px) {
-  .img-hero {
-    max-width: 100%;
-  }
 }
