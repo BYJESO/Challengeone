@@ -63,7 +63,7 @@ button.btn-login:hover {
   padding: 70px 130px 120px 170px; desktop
 } */
 
-h1.text-hero {
+.text-hero {
   text-align: center;
   padding-top: 68px;
   font-size: 30px;
@@ -141,8 +141,41 @@ div.partner {
   a.space-in {
     margin-left: 50px;
   }
+
   a.space-di {
     margin-right: 35px;
+  }
+
+  .border-dropdown {
+    border-radius: 12px !important;
+    border: none !important;
+  }
+
+  a.dropdown-item {
+    padding: 0.25rem !important;
+  }
+  .img-dropdown {
+    margin-right: 10px;
+  }
+
+  .container-button {
+    display: flex;
+    gap: 15px;
+  }
+
+  .bg-disable {
+    background-color: none;
+  }
+
+  button.btn-login {
+    color: rgba(0, 0, 0, 0.55);
+    background-color: transparent;
+    border: none;
+    padding: 6px 12px;
+  }
+
+  button.btn-login:hover {
+    color: black;
   }
 
   /* <-------------MAIN----------> */
@@ -152,27 +185,50 @@ div.partner {
   }
 
   h1.text-hero {
+    text-align: justify;
+    padding-top: 68px;
     font-size: 76px;
+    font-weight: 700;
+    max-width: 510px;
   }
 
   p.text-hero {
+    max-width: 485px !important;
     font-size: 18px;
-
+    font-weight: 400;
     text-align: justify;
-
     padding-top: 44px;
     padding-bottom: 54px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
   }
 
   button.btn {
-    display: inline-block;
+    margin: 0;
   }
 
-  button.btn-lg {
-    padding: 15px;
+  div.partner {
+    padding-bottom: 0;
+    padding-top: 110px;
   }
 
   .partner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
     gap: 40px;
+  }
+  .img-partner {
+    width: 82px;
+  }
+
+  .img-fluid {
+    height: 640px;
+  }
+
+  .img-hero {
+    width: 480px;
+    height: auto;
   }
 }
