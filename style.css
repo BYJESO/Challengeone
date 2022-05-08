@@ -58,16 +58,12 @@ button.btn-login:hover {
 }
 
 /* <-------------MAIN----------> */
-/* 
-.pb {
-  padding: 70px 130px 120px 170px; desktop
-} */
 
-.text-hero {
+h1.text-hero {
   text-align: center;
-  padding-top: 68px;
-  font-size: 30px;
-  /* font-size: 76px; desktop*/
+  padding-top: 45px;
+  font-size: 35px;
+
   font-weight: 700;
 }
 
