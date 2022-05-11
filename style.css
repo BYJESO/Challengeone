@@ -29,6 +29,14 @@ a.space-di {
   margin-right: 35px;
 } */
 
+.dropdown-menu {
+  background-color: transparent !important;
+}
+
+.shadoww {
+  box-shadow: none;
+}
+
 .border-dropdown {
   border-radius: 12px !important;
   border: none !important;
@@ -147,9 +155,17 @@ div.partner {
     margin-right: 35px;
   }
 
+  .dropdown-menu {
+    background-color: white;
+  }
+
   .border-dropdown {
     border-radius: 12px !important;
     border: none !important;
+  }
+
+  .shadoww {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
 
   a.dropdown-item {
