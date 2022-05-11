@@ -5,6 +5,10 @@
   font-family: "Epilogue", sans-serif;
 }
 
+body {
+  background-color: hsl(0, 0%, 98%) !important;
+}
+
 nav.navbar {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -72,6 +76,7 @@ h1.mb-3 {
 }
 
 p.text-hero {
+  color: hsl(0, 0%, 41%);
   font-size: 15.5px;
   /* font-size: 18px; desktop */
   font-weight: 400;
