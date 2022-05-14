@@ -68,7 +68,7 @@ a.dropdown-item {
 }
 
 .container-button2 {
-  display: flex;
+  display: flex !important;
   justify-content: center;
 }
 
